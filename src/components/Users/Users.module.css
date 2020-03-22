@@ -1,0 +1,94 @@
+.users {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-flow: column;
+}
+
+.users button{
+    width: 30%;
+    padding: 1%;
+}
+
+.users .pages {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+
+.user_decr{
+    display: grid;
+    grid-template: 1fr 1fr/ 1fr 1fr;
+    width: inherit;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 10px;
+    height: 100px;
+    margin-left:2%;
+}
+
+.el_one{
+    align-self: start;
+}
+.el_two{
+    justify-self: start;
+    align-self: end;
+}
+.el_three{
+    align-self: start;
+    justify-self: end;
+}
+.el_four{
+    align-self: end;
+    justify-self: end;
+}
+
+.user {
+    display: flex;
+    width: 80%;
+    margin: 2% 0 0 5%;
+}
+
+.user button {
+    display: block;
+    text-align: center;
+    border: none;
+    width: 100px;
+}
+
+.user img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    padding: 0 5% 0 5%;
+}
+
+.user_img {
+    justify-content: center;
+    align-self: center;
+}
+.selectedPage{
+    font-weight: bold;
+    background-color: #EDEEF0;
+    border-style: solid;
+}
+
+.pages{
+    margin-top: 2%;
+}
+
+.pages span{
+
+    text-align: center;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 1.6rem;
+    padding: 4px;
+    min-width: 20px;
+    min-height: 20px;
+    cursor: pointer;
+}
+
+
+

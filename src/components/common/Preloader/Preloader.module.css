@@ -1,0 +1,9 @@
+.loader{
+    background-image: url("../../../assets/images/escalade.gif");
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}

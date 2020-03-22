@@ -1,0 +1,37 @@
+h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.friends{
+    margin-top: 40%;
+}
+
+.friends_photos{
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 5%;
+}
+
+.friends_photos figure{
+    width: auto;
+    align-self: self-start;
+    margin: 5% 0;
+}
+
+.friends_photos figure img{
+
+    width: auto;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.friends_photos figcaption{
+
+    max-width: 75px;
+    word-break: break-word;
+    text-align: center;
+}

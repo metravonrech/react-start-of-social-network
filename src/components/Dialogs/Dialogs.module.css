@@ -1,0 +1,52 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+}
+
+.dialogs_items {
+
+    padding: 20px;
+    border-style: solid;
+    border-right-color: #4fa49a;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    text-align: center;
+    min-width: 2fr;
+    /*height: calc(100vh - 120px);*/
+    /*overflow: scroll;*/
+}
+
+.message_items {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.message_addition{
+    margin-top: 30px;
+    position: sticky;
+    display: block;
+    top: 30px;
+}
+
+.message_addition textarea{
+    align-self: center;
+    min-width: 50vmin;
+    min-height: 10vmin;
+    resize: none;
+}
+
+.message_addition button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-self: center;
+    max-width: 50vmin;
+    max-height: 10vmin;
+}
+
+
+
+

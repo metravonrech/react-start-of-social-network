@@ -1,0 +1,29 @@
+.post{
+    display: block;
+    height: auto;
+    width: auto;
+    /*max-height: 300px;*/
+    overflow-y: hidden;
+    padding: 30px;
+    border-style: solid;
+    margin: 2% 10% 0 10%;
+}
+
+.post img{
+    float: left;
+    display: inline-block;
+    max-width: 10%;
+    min-width: 50px;
+    height: auto;
+}
+.like{
+    padding-top: 10px;
+    float: right;
+}
+
+/*.center{*/
+/*    margin-right: auto;*/
+/*    margin-left: auto;*/
+/*}*/
+
+

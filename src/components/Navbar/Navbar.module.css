@@ -1,0 +1,27 @@
+.nav {
+    grid-area: nav;
+    background-color: #EDEEF0;
+}
+
+.nav a {
+    display: block;
+    text-align: center;
+    padding: 2% 0 2% 0;
+    text-decoration: none;
+    color: #4fa49a;
+}
+
+.nav a:first-child {
+    margin-top: 20%;
+}
+
+.nav a:hover {
+    background-color: #E1E5EB;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.nav a.active{
+    background-color: #E1E5EB;
+    text-transform: uppercase;
+}

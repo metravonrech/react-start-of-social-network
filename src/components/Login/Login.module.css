@@ -1,0 +1,37 @@
+.login{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    padding: 4% 5% 4% 5%;
+    border: solid #43D1AF;
+    border-radius: 4%;
+    background-color: #F2F2F2;
+
+
+}
+.login h1{
+    text-align: center;
+}
+
+.login_form div{
+    margin: 10% 0 10% 0;
+}
+
+.login_form input{
+    padding: 5% 2% 5% 2%;
+    margin: 5% 0 5% 0;
+    border: solid #43D1AF;
+}
+
+.login_form button{
+    padding: 8% 10% 8% 10%;
+}
+.login_form_error{
+    width: 157px;
+    border: red 1px solid;
+    padding: 5px;
+    color: red;
+
+}

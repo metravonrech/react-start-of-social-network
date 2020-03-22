@@ -1,0 +1,9 @@
+.message {
+    min-width: 250px;
+    margin: 0 10% 2.5%;
+    padding: 3%;
+    border-style: solid;
+    border-radius: 30px;
+    text-align: center;
+}
+
